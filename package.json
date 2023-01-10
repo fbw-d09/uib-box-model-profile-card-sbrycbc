@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "puppeteer": "^17.1.3"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-box-model-profile-card",
+    "id": 318145959
+  }
+}
